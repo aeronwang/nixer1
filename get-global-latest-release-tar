@@ -1,0 +1,14 @@
+m4ub.cmdlogic(
+curl -sLO https://ftp.gnu.org/pub/gnu/global/global-6.6.15.tar.gz
+,
+)(call=|sep=|log=|ts=|time=|bypass=)
+dnl Local Variables:
+dnl mode                         : m4
+dnl eval                         : (hack-dir-local-variables-after-change-major-mode)
+dnl coding                       : iso-latin-1-unix
+dnl delete-trailing-whitespace   : t
+dnl delete-trailing-blank-lines  : t
+dnl eval                         : (setq comment-start "dnl " comment-start-skip "dnl[ 	]+")
+dnl eval                         : (m4bq 1)
+dnl eval: (setq run-the-fileargs  '(("currun %s" fa-curfile)))
+dnl End:
